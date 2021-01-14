@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Exemple</title>
+  </head>
+  <script>
+    function SayHi() {
+      alert("Hi,3 seconds has been passed ");
+    }
+    function StartCounting() {
+      setTimeout(SayHi, 3000);
+    }
+  </script>
+  <body>
+    <input type="button" value="go" onclick="StartCounting()" />
+  </body>
+</html>
